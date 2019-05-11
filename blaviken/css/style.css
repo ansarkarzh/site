@@ -1,0 +1,203 @@
+body {
+
+    font-family: Arial, monospace; 
+
+	padding: 0px;
+
+	margin: 0px;
+
+	color: #222222;
+
+}
+
+header {
+
+
+
+background: url(../css/img/head.jpg) no-repeat top / cover;
+
+	height: 100vh;
+
+	width: 100%;
+
+
+
+}
+
+
+
+div{
+
+	box-sizing: border-box;
+
+}
+
+
+
+.container{
+
+	width: 100%;
+
+	max-width: 1100px;
+
+	margin: 0 auto;
+
+}
+
+img{
+	max-height: 400px;
+	max-width: 100%
+}
+
+.titles{
+
+padding-top:30px;
+
+padding-right: 25px;
+
+}
+
+.titles__first{
+
+    font-size: 40px;
+
+    color: white;
+
+    text-align: right;
+
+    text-transform: uppercase;
+
+
+
+}
+
+span{
+
+	font-size: 75px;
+
+	color: orange;
+
+	text-transform: uppercase;
+
+    text-align: right;
+
+    
+
+}
+
+h2{
+
+	color: orange;
+
+	text-transform: uppercase;
+
+	text-align: center;
+
+}
+
+#intro{
+
+    font-size: 20px;
+
+	text-align: center;
+
+
+
+}
+
+
+
+audio{
+
+	border: 3px solid #ffb938;
+
+	border-radius: 24%;
+
+	height: 25px;
+
+	padding: 0px;
+
+}
+
+
+
+#songs{
+
+	padding-left: 10px;
+
+	text-align: left;
+
+	padding: 0px;
+
+	margin: 0px;
+
+	font-size: 21px;
+
+	float: left;
+
+}
+
+
+
+.serials_name{
+
+	padding: 0;
+
+	text-align: left;
+
+
+	margin: 0px;
+
+	font-size: 25px;
+
+	color: #ffb938;
+
+}
+
+footer{
+
+	padding: 10px;
+
+	background-color: #d3d3d3;
+
+    left: 0; bottom: 0; 
+
+    width: 100%; 
+
+}
+
+@media screen and (max-width:800px) {
+	p{
+		float: none;
+		width: 100%;
+		font-size: 14px;
+	}
+	.titles__first{
+		float: none;
+		width: 100%;
+		font-size: 20px;
+	}
+    span{
+    	font-size: 35px;
+    }
+    header{
+    	height: 60vh;
+    }
+    h2{
+    	font-size: 18px;
+    }
+    table{
+    	width: 60%;
+    	text-align: center;
+    }
+    #songs{
+    	font-size: 15px;
+       }
+    audio{
+    	width: 30%;
+    	text-align: center;
+    }
+    .serials_name{
+    	font-size: 19px;
+    }
+}
